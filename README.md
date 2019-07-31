@@ -60,7 +60,20 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
 
-<!-- example here -->
+```
+// api调用
+const result = await app.tenpay.getPayParams({
+  out_trade_no: '商户内部订单号',
+  body: '商品简单描述',
+  total_fee: '订单金额(分)',
+  openid: '付款用户的openid'
+});
+
+// 中间件
+// router.js
+router.post('/notify',app.middleware.tenpay('pay', app),controller.home.notify);
+
+```
 
 ## Questions & Suggestions
 
