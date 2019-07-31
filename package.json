@@ -1,6 +1,6 @@
 {
   "name": "egg-tenpay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "egg plugin for tenpay",
   "eggPlugin": {
     "name": "tenpay"
