@@ -20,9 +20,7 @@
 [download-image]: https://img.shields.io/npm/dm/egg-tenpay.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-tenpay
 
-<!--
 egg plugin for [tenpay](https://github.com/befinal/node-tenpay)
--->
 
 ## Install
 
